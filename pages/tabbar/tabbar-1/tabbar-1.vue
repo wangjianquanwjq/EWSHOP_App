@@ -18,6 +18,7 @@
 		</view>
 		<!-- tabs列表 -->
 		<view class="tabs_list">
+			<van-button type="primary">按钮</van-button>
 		</view>
 	</view>
 </template>
