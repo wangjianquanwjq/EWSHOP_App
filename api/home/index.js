@@ -3,10 +3,10 @@ import request from '../../utils/request.js'
 /*
 * 1.获取商城楼层列表
 */
-export function getHomeList(){
+export function getHomeList(params) {
 	return request({
-		url:'/api/index',
-		method:'get'
+		url: `/api/index?page=${params.page}`,
+		method: 'get'
 	})
 }
 
