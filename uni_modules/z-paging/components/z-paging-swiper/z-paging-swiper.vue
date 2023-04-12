@@ -73,7 +73,7 @@
 			finalSwiperStyle() {
 				const swiperStyle = this.swiperStyle;
 				if (!this.systemInfo) return swiperStyle;
-				const windowTop = this.windowTop;
+				const windowTop = 410;
 				const windowBottom = this.systemInfo.windowBottom;
 				if (this.fixed) {
 					if (windowTop && !swiperStyle.top) {

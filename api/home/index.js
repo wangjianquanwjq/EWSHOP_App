@@ -5,8 +5,9 @@ import request from '../../utils/request.js'
 */
 export function getHomeList(params) {
 	return request({
-		url: `/api/index?page=${params.page}`,
-		method: 'get'
+		url: `/api/index?page=${params.page}&${params.type}=1`,
+		method: 'get',
+		showLoading:false
 	})
 }
 
